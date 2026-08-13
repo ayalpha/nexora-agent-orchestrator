@@ -1,7 +1,7 @@
 """Mesh API client — the **only** gateway for AI in this project.
 
 ★ HARD ARCHITECTURAL CONSTRAINT ★
-Every LLM completion and every embedding in SmartReco is issued through the Mesh
+Every LLM completion and every embedding in Nexora is issued through the Mesh
 API gateway at ``https://api.meshapi.ai/v1``.  There is no direct Anthropic,
 OpenAI or Gemini SDK usage anywhere in the codebase.  The ``openai`` package is
 used strictly as an OpenAI-*compatible* HTTP transport whose ``base_url`` points

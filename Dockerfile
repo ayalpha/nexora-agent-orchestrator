@@ -1,5 +1,5 @@
 # ===========================================================================
-# SmartReco — application image.
+# Nexora — application image.
 #
 # Single-stage on purpose. Every dependency in requirements.txt ships a
 # manylinux wheel (psycopg2-binary bundles libpq, cryptography and bcrypt are

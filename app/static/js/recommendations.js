@@ -1,5 +1,5 @@
 /**
- * SmartReco "For You" panel: polling, pipeline tracker, the reveal, rendering.
+ * Nexora "For You" panel: polling, pipeline tracker, the reveal, rendering.
  *
  * Behaviour:
  *   - Polls `GET /api/recommendations/latest` every 60 seconds; accelerates to

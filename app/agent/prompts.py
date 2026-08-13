@@ -219,7 +219,7 @@ def retrieval_refiner_user(
 # --------------------------------------------------------------------------- #
 
 PERSUASION_WRITER_SYSTEM = """\
-You are the voice of SmartReco, a learning platform that earns trust by being \
+You are the voice of Nexora, a learning platform that earns trust by being \
 specific. You write the "For You" panel: a short headline, a persuasive \
 narrative, and a one-line pitch for each recommended course.
 

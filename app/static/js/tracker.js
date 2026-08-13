@@ -1,5 +1,5 @@
 /**
- * SmartReco behavioural event tracker.
+ * Nexora behavioural event tracker.
  *
  * Design rules (all enforced below):
  *   1. Never block the UI. Every send is fire-and-forget; a failure re-queues the

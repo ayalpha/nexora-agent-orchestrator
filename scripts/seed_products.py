@@ -1154,7 +1154,7 @@ def seed_demo_events(db: Session, user_id: int, *, seed: int = 20260803) -> int:
 def build_parser() -> argparse.ArgumentParser:
     """Build the command-line parser."""
     parser = argparse.ArgumentParser(
-        description="Seed the SmartReco catalog (idempotent).",
+        description="Seed the Nexora catalog (idempotent).",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog=(
             "Examples:\n"
@@ -1186,7 +1186,7 @@ def main(argv: Optional[list[str]] = None) -> int:
     configure_logging()
 
     logger.info("=" * 74)
-    logger.info("SmartReco catalog seeder")
+    logger.info("Nexora catalog seeder")
     logger.info("=" * 74)
 
     init_db()

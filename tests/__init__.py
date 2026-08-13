@@ -1,4 +1,4 @@
-"""SmartReco test-suite.
+"""Nexora test-suite.
 
 The suite runs with **no external services and no API keys**: SQLite replaces
 PostgreSQL, the embedded Qdrant fallback replaces the vector server, an

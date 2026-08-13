@@ -1,4 +1,4 @@
-"""SmartReco — a behavioural AI recommendation agent for a learning marketplace.
+"""Nexora — a behavioural AI recommendation agent for a learning marketplace.
 
 Package map
 -----------

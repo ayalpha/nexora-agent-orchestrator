@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 # ===========================================================================
-# SmartReco — container entrypoint for Railway / Render / Fly / any PaaS.
+# Nexora — container entrypoint for Railway / Render / Fly / any PaaS.
 #
 # Three phases, in order:
 #   1. migrate  — bring the schema up to head
@@ -35,7 +35,7 @@ else
 fi
 
 echo "=========================================================="
-echo "[start] SmartReco booting"
+echo "[start] Nexora booting"
 echo "[start] interpreter=$(command -v ${PY}) ($(${PY} --version 2>&1))"
 echo "[start] port=${PORT} environment=${ENVIRONMENT:-development}"
 echo "[start] migrate=${AUTO_MIGRATE} seed=${AUTO_SEED}"
