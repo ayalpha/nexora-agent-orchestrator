@@ -59,7 +59,7 @@ class Settings(BaseSettings):
     mesh_max_retries: int = 3
     mesh_timeout_seconds: float = 60.0
 
-    # ----------------------------------------------------------- hackathon
+    # ---------------------------------------------- optional external token
     submission_token: str = ""
 
     # ------------------------------------------------------------ database

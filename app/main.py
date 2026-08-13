@@ -44,7 +44,7 @@ logger = logging.getLogger(__name__)
 
 DESCRIPTION = """\
 **Nexora** is a behavioural AI recommendation agent for a learning marketplace,
-built by AY Systum for the SmartReco Build Challenge 2026.
+built by **AY Systum**.
 
 It watches what a learner does, understands what they are pursuing, and writes a
 persuasive, evidence-grounded recommendation — via a seven-node LangGraph state

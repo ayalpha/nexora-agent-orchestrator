@@ -91,10 +91,10 @@ of the above, generates `SECRET_KEY`, and prompts only for `MESH_API_KEY`.
 Normally an ephemeral disk plus SQLite means "your demo data disappears". Here it
 doesn't matter, because `scripts/start.sh` re-seeds on every boot: 38 courses, both
 demo accounts, and a synthetic browsing session weighted toward Agentic AI. A wipe
-self-heals into exactly the state you want a judge to land on.
+self-heals into a consistent demo state.
 
-What you lose: accounts *judges* create, and recommendations generated before a
-restart. For a hackathon demo that's a non-issue.
+What you lose: accounts created after deploy, and recommendations generated before a
+restart. For a disposable demo environment that is usually fine.
 
 Want persistence anyway? Add **New + → Postgres** (free plan), copy its **Internal
 Database URL**, and set `DATABASE_URL` to it. The app normalises the DSN scheme
