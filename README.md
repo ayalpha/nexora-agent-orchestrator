@@ -6,7 +6,7 @@
 
 Built by **AY Systum** · **Nexora**
 
-[![CI Checks](https://github.com/ayalpha/nexora-agent-orchestrator/actions/workflows/smartreco-build-challenge-2026-checks.yml/badge.svg)](https://github.com/ayalpha/nexora-agent-orchestrator/actions/workflows/smartreco-build-challenge-2026-checks.yml)
+
 ![Python](https://img.shields.io/badge/python-3.11%2B-3776AB?logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-async-009688?logo=fastapi&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-state%20machine-1C3C3C)
